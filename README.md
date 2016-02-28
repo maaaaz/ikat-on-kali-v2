@@ -13,7 +13,7 @@ As it was available on Kali v1, I propose you to follow this tutorial to make it
 4. `$ cp /usr/lib/libBLT.2.5.so.8.6 /usr/lib/libBLT.2.4.so.8.5`. You mileage may vary for `libBLT.2.5.so.8.6`, the point is anyway to have a `libBLT.2.4.so.8.5` file.  
 
 5. Create a `msfcli` file in the following folder `/usr/share/metasploit-framework/`  
-5.1 Copy and paste the following ruby snippet into `msfcli`:
+    5.1 Copy and paste the following ruby snippet into `msfcli`:
     ```
     #!/usr/share/metasploit-framework/ruby
     # -*- coding: binary -*-
@@ -30,8 +30,7 @@ As it was available on Kali v1, I propose you to follow this tutorial to make it
     system(command)
 
     ```
-    
-5.2 Grant the execute right to `msfcli`: `$ chmod +x /usr/share/metasploit-framework/msfcli`
+    5.2 Grant the execute right to `msfcli`: `$ chmod +x /usr/share/metasploit-framework/msfcli`  
 
 6. Start ikat: `$ ikat`
 
