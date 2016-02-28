@@ -4,7 +4,7 @@ Like me, you may have observed that the `ikat` package related to the popular ki
 
 As it was available on Kali v1, I propose you to follow this tutorial to make it alive again.
 
-1. Add the [old Kali v1 repository](http://docs.kali.org/general-use/kali-linux-sources-list-repositories) `deb http://old.kali.org/kali moto main non-free contrib` entry to the `/etc/apt/sources.list`. You can also manually download and install the [.deb package here](http://old.kali.org/kali/pool/non-free/i/ikat/) if you do want to edit your `sources.list` file
+1. Add the [old Kali v1 repository](http://docs.kali.org/general-use/kali-linux-sources-list-repositories) `deb http://old.kali.org/kali moto main non-free contrib` entry to the `/etc/apt/sources.list`. You can also manually download and install the [.deb package here](http://old.kali.org/kali/pool/non-free/i/ikat/) if you don't want to edit your `sources.list` file
 
 2. `$ apt-get update && apt-get install ikat`  
 
