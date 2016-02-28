@@ -10,7 +10,7 @@ As it was available on Kali v1, I propose you to follow this tutorial to make it
 
 3. Remove the old Kali v1 repository from your `/etc/apt/sources.list` as it will somehow break some stuff
 
-4. `$ cp /usr/lib/libBLT.2.5.so.8.6 /usr/lib/libBLT.2.4.so.8.5`. You mileage may vary for `libBLT.2.5.so.8.6`, the point is anyway to have a `libBLT.2.4.so.8.5` file.  
+4. `$ cp /usr/lib/libBLT.2.5.so.8.6 /usr/lib/libBLT.2.4.so.8.5`. You mileage may vary for `libBLT.2.5.so.8.6`, the point is anyway to have a `libBLT.2.4.so.8.5` file  
 
 5. Create a `msfcli` file in the following folder `/usr/share/metasploit-framework/`  
     5.1. Copy and paste the following ruby snippet into `msfcli`:
@@ -34,7 +34,7 @@ As it was available on Kali v1, I propose you to follow this tutorial to make it
 
 6. Start ikat: `$ ikat`
 
-7. Select the desired interface and port. Selecting something different that `127.0.0.1` for the interface and `8080` lead to a re-generation of the browser exploits, and make use of the ruby `msfcli` script created earlier. Note that generating the exploits may take some time (~5 minutes).
+7. Select the desired interface and port. Selecting something different that `127.0.0.1` for the interface and `8080` lead to a re-generation of the browser exploits, and make use of the ruby `msfcli` script created earlier. Note that generating the exploits may take some time (~5 minutes)  
 
 8. Visit `http://interface_adress:port/Windows/index.html` or `http://interface_adress:port/Linux/index.html` with your browser
 
