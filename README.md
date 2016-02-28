@@ -34,7 +34,7 @@ As it was available on Kali v1, I propose you to follow this tutorial to make it
 
 6. Start ikat: `$ ikat`
 
-7. Select the desired interface and port. Selecting something different that `127.0.0.1` for the interface and `8080` **lead to a re-generation of the browser exploits**, and make use of the ruby `msfcli` script created earlier.  
+7. Select the desired interface and port. Selecting something different than `127.0.0.1` for the interface and `8080` **lead to a re-generation of the browser exploits**, and make use of the ruby `msfcli` script created earlier.  
  Note that **re-generating the exploits may take some time (~5 minutes)**.  
  You know everything went alright **if the starting trace looks like the one in the attached [`start_trace.txt`](https://github.com/maaaaz/ikat-on-kali-v2/blob/master/start_trace.txt) file**
 
